@@ -1,0 +1,9 @@
+
+.container {
+  max-width: 1024px;
+  border: 0px solid rgb(38, 173, 54);
+  margin: 0 auto;
+  padding: 0.75em 2em;
+}
+
+

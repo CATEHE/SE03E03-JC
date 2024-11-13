@@ -1,0 +1,35 @@
+.search {
+  max-width: 350px;
+  width: 100%;
+  margin: 2em auto 0;
+  display: grid;
+  grid-template-columns: 1fr 0.25fr;
+  padding: 10px;
+
+}
+
+.search__input{
+  border: none;
+  background-image: linear-gradient(to left, #f4f6a5,#9bb9a0,#f4f6a5);
+  border-radius: 4px 0 0 4px;
+  padding: 0.25em 0.5em;
+  color: rgb(9, 65, 9);
+  font-size: 1.2rem;
+  font-weight: 700;
+  font-family: 'Courier New', Courier, monospace;
+  text-decoration-style: double;
+  outline: none
+}
+
+.search__btn{
+  border: none;
+  background-color: #9acd32;
+  border-radius: 0px 4px 4px 0;
+  padding: 0.25em 0.5em;
+  outline: none;
+}
+
+.search__error{
+  color:yellowgreen;
+  text-align: center;
+}
